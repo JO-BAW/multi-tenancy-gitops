@@ -3,8 +3,8 @@ resources:
 - argocd/namespace-tools.yaml
 - argocd/namespace-ibm-common-services.yaml
 - argocd/namespace-cp4ba.yaml
-# - argocd/serviceaccounts-baw.yaml
-# - argocd/machine-configuration.yaml
+ - argocd/serviceaccounts-baw.yaml
+ - argocd/machine-configuration.yaml
 
 patches:
 - target:
